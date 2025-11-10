@@ -7,4 +7,6 @@ Projects on the RealMan Robot
 ~$ cd ros2_rm_robot/rm_install/scripts
 ~/ros2_rm_robot/rm_install/scripts$ sudo ./ros2_install.sh
 ~/ros2_rm_robot/rm_install/scripts$ sudo ./moveit2_install.sh
+~$ cd ros2_rm_robot/rm_driver/lib
+~/ros2_rm_robot/rm_driver/lib$ sudo ./lib_install.sh
 ```
