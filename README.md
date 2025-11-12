@@ -1,5 +1,8 @@
-# realman
-Projects on the RealMan Robot
+# Setup Ubuntu
+Ubuntu 22.04.5 LTS (Jammy Jellyfish) の設定
+
+## ROS2
+[ROS 2 Humble](https://docs.ros.org/en/humble/index.html)を公式の手順に従ってインストールする。https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html を参照。
 
 ## Setup
 ```bash 
