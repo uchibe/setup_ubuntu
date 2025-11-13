@@ -12,10 +12,13 @@ source /opt/ros/humble/setup.bash
 ```
 を追記する。
 
-最後にROS2の依存関係ツールをインストールする。
+最後にROS2の依存関係ツールやgazebo, rqtをインストールする。
 ```shell-session
 $ sudo apt install python3-colcon-common-extensions -y
 $ sudo apt install python3-argcomplete
+sudo apt install gazebo
+sudo apt install ros-humble-gazebo-*
+sudo apt install ros-humble-rqt-*
 ```
 
 動作確認のためターミナルを一つ開き
@@ -27,6 +30,25 @@ $ ros2 run demo_nodes_cpp talker
 $ ros2 run demo_node_py listener
 ```
 を実行し通信ができていれば大丈夫。
+
+
+## CRANE X7
+```shell-session
+$ sudo apt install git
+$ sudo apt install python3-rosdep
+$ sudo apt install colcon 
+```
+
+```
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/src
+git clone -b ros2 https://github.com/rt-net/crane_x7_ros.git
+git clone -b ros2 https://github.com/rt-net/crane_x7_description.git
+git clone -b humble https://github.com/ros-controls/gz_ros2_control.git
+rosdep update
+rosdep install -r -y -i --from-paths .
+```
+
 
 ## Setup
 ```shell-session
