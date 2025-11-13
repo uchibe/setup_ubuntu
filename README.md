@@ -16,9 +16,9 @@ source /opt/ros/humble/setup.bash
 ```shell-session
 $ sudo apt install python3-colcon-common-extensions -y
 $ sudo apt install python3-argcomplete
-sudo apt install gazebo
-sudo apt install ros-humble-gazebo-*
-sudo apt install ros-humble-rqt-*
+$ sudo apt install gazebo
+$ sudo apt install ros-humble-gazebo-*
+$ sudo apt install ros-humble-rqt-*
 ```
 
 ### 動作確認
