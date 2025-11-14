@@ -35,7 +35,7 @@ ros2 run demo_node_py listener
 
 ## CRANE X7
 ### CycloneDDSのインストール
-https://rt-net.jp/humanoid/archives/5069　にしたがってCycloneDDSを予めインストールする。
+https://rt-net.jp/humanoid/archives/5069 にしたがってCycloneDDSを予めインストールする。
 ```shell-session
 sudo apt update
 sudo apt install ros-$ROS_DISTRO-rmw-cyclonedds-cpp
@@ -90,7 +90,7 @@ cd ~/DynamixelSDK/c++/build/linux64
 make
 sudo make install
 ```
-Dynamixel WizardのインストールやROS2での設定の詳細は　https://zenn.dev/tasada038/articles/422d3f7f2232bb　を参照されたいがとりあえずスキップ。
+Dynamixel WizardのインストールやROS2での設定の詳細は https://zenn.dev/tasada038/articles/422d3f7f2232bb を参照されたいがとりあえずスキップ。
 
 ### その他依存関係のインストール
 ```shell-session
