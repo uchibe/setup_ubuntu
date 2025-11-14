@@ -122,5 +122,5 @@ sudo echo 1 > /sys/bus/usb-serial/devices/ttyUSB0/latency_timer
 ```
 とする。
 
-https://github.com/rt-net/rt_manipulators_cpp/blob/main/samples/README.md　にしたがって各種サンプルをコンパイル、実行する。
-https://rt-net.jp/humanoid/archives/4398　には重力補償のサンプルプログラムを書き換える例が示されている。
+https://github.com/rt-net/rt_manipulators_cpp/blob/main/samples/README.md にしたがって各種サンプルをコンパイル、実行する。
+https://rt-net.jp/humanoid/archives/4398 には重力補償のサンプルプログラムを書き換える例が示されている。
